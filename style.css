@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Roboto&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* top section */
+
+
+.top-section{
+    padding: 50px;
+    background-color:  #FC2947;
+    text-align: center;
+    color: aliceblue;
+    position: relative;
+}
+
+.logo{
+    height: 40rem;
+}
+.convocation{
+    font-family: 'Parisienne', cursive;
+    font-size: 8rem;
+}
+
+.quote{
+    font-family: 'Sacramento', cursive;
+    font-size: 35px;
+    margin: 20px 0;
+}
+.csjmu{
+    font-family: 'Parisienne', cursive;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+/* mid section */
+
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    background-color:#FC2947;
+    border-radius: 10px;
+}
+.mid-section{
+    padding: 50px;
+    text-align: center;
+    background-color:  #EDF1D6;
+    position: relative;
+    z-index: 2;
+}
+
+.convocation-images{
+    font-family: 'Parisienne', cursive;
+    color: #4E6E81;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.vc{
+    color: #0E8388;
+    font-weight:bolder;
+    font-family: 'Parisienne', cursive;
+}
+.vc-sir{
+    margin-top: 50px;
+    border-radius: 5%;
+    height: 300px;
+}
+
+.c2{
+    margin-top: 50px;
+    border-radius: 5%;
+    height: 400px;
+}
+
+/* bottom section  */
+
+
+.bottom-section{
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color:  #FC2947;
+}
+
+.about{
+    color: aliceblue;
+    font-family: 'Parisienne', cursive;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.about-university{
+    color: aliceblue;
+    text-align: left;
+    padding: 70px;
+}
+
+.s1{
+    height: 300px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 40px;
+}
+
+.navbar-brand{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+}
+
+/* lower section */
+.lower-section{
+    padding-top: 50px;
+    background-color: #EDF1D6;
+    text-align: center;
+}
+span{
+    font-family: 'Courier New', Courier, monospace;
+}
+.medalist{
+    
+    font-family: 'Parisienne', cursive;
+    color: #4E6E81;
+    font-weight: bold;
+}
+.list{
+    padding: 80px;
+}
+
+/* made by section */
+
+.made-by-section{
+    background-color: #FC2947;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.made-by{
+    font-family: 'Parisienne', cursive;
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+@media (max-width: 400px) {
+    .logo{
+        height: 10rem;
+    }
+}
